@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/lis.dir/src/longest_increasing_subsequence.cpp.o  -o lis -rdynamic 
