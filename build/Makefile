@@ -114,29 +114,29 @@ lis/fast:
 	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/build
 .PHONY : lis/fast
 
-src/longest_increasing_subsequence.o: src/longest_increasing_subsequence.cpp.o
-.PHONY : src/longest_increasing_subsequence.o
+src/longest_common_subsequence.o: src/longest_common_subsequence.cpp.o
+.PHONY : src/longest_common_subsequence.o
 
 # target to build an object file
-src/longest_increasing_subsequence.cpp.o:
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_increasing_subsequence.cpp.o
-.PHONY : src/longest_increasing_subsequence.cpp.o
+src/longest_common_subsequence.cpp.o:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o
+.PHONY : src/longest_common_subsequence.cpp.o
 
-src/longest_increasing_subsequence.i: src/longest_increasing_subsequence.cpp.i
-.PHONY : src/longest_increasing_subsequence.i
+src/longest_common_subsequence.i: src/longest_common_subsequence.cpp.i
+.PHONY : src/longest_common_subsequence.i
 
 # target to preprocess a source file
-src/longest_increasing_subsequence.cpp.i:
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_increasing_subsequence.cpp.i
-.PHONY : src/longest_increasing_subsequence.cpp.i
+src/longest_common_subsequence.cpp.i:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.i
+.PHONY : src/longest_common_subsequence.cpp.i
 
-src/longest_increasing_subsequence.s: src/longest_increasing_subsequence.cpp.s
-.PHONY : src/longest_increasing_subsequence.s
+src/longest_common_subsequence.s: src/longest_common_subsequence.cpp.s
+.PHONY : src/longest_common_subsequence.s
 
 # target to generate assembly for a file
-src/longest_increasing_subsequence.cpp.s:
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_increasing_subsequence.cpp.s
-.PHONY : src/longest_increasing_subsequence.cpp.s
+src/longest_common_subsequence.cpp.s:
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.s
+.PHONY : src/longest_common_subsequence.cpp.s
 
 # Help Target
 help:
@@ -147,9 +147,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... lis"
 	@echo "... rebuild_cache"
-	@echo "... src/longest_increasing_subsequence.o"
-	@echo "... src/longest_increasing_subsequence.i"
-	@echo "... src/longest_increasing_subsequence.s"
+	@echo "... src/longest_common_subsequence.o"
+	@echo "... src/longest_common_subsequence.i"
+	@echo "... src/longest_common_subsequence.s"
 .PHONY : help
 
 
