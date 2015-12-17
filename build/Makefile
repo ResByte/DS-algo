@@ -102,41 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lis
+# Target rules for targets named ed
 
 # Build rule for target.
-lis: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lis
-.PHONY : lis
+ed: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ed
+.PHONY : ed
 
 # fast build rule for target.
-lis/fast:
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/build
-.PHONY : lis/fast
+ed/fast:
+	$(MAKE) -f CMakeFiles/ed.dir/build.make CMakeFiles/ed.dir/build
+.PHONY : ed/fast
 
-src/longest_common_subsequence.o: src/longest_common_subsequence.cpp.o
-.PHONY : src/longest_common_subsequence.o
+src/edit_distance.o: src/edit_distance.cpp.o
+.PHONY : src/edit_distance.o
 
 # target to build an object file
-src/longest_common_subsequence.cpp.o:
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o
-.PHONY : src/longest_common_subsequence.cpp.o
+src/edit_distance.cpp.o:
+	$(MAKE) -f CMakeFiles/ed.dir/build.make CMakeFiles/ed.dir/src/edit_distance.cpp.o
+.PHONY : src/edit_distance.cpp.o
 
-src/longest_common_subsequence.i: src/longest_common_subsequence.cpp.i
-.PHONY : src/longest_common_subsequence.i
+src/edit_distance.i: src/edit_distance.cpp.i
+.PHONY : src/edit_distance.i
 
 # target to preprocess a source file
-src/longest_common_subsequence.cpp.i:
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.i
-.PHONY : src/longest_common_subsequence.cpp.i
+src/edit_distance.cpp.i:
+	$(MAKE) -f CMakeFiles/ed.dir/build.make CMakeFiles/ed.dir/src/edit_distance.cpp.i
+.PHONY : src/edit_distance.cpp.i
 
-src/longest_common_subsequence.s: src/longest_common_subsequence.cpp.s
-.PHONY : src/longest_common_subsequence.s
+src/edit_distance.s: src/edit_distance.cpp.s
+.PHONY : src/edit_distance.s
 
 # target to generate assembly for a file
-src/longest_common_subsequence.cpp.s:
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.s
-.PHONY : src/longest_common_subsequence.cpp.s
+src/edit_distance.cpp.s:
+	$(MAKE) -f CMakeFiles/ed.dir/build.make CMakeFiles/ed.dir/src/edit_distance.cpp.s
+.PHONY : src/edit_distance.cpp.s
 
 # Help Target
 help:
@@ -144,12 +144,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... ed"
 	@echo "... edit_cache"
-	@echo "... lis"
 	@echo "... rebuild_cache"
-	@echo "... src/longest_common_subsequence.o"
-	@echo "... src/longest_common_subsequence.i"
-	@echo "... src/longest_common_subsequence.s"
+	@echo "... src/edit_distance.o"
+	@echo "... src/edit_distance.i"
+	@echo "... src/edit_distance.s"
 .PHONY : help
 
 

@@ -52,37 +52,37 @@ include CMakeFiles/lis.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lis.dir/flags.make
 
-CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o: CMakeFiles/lis.dir/flags.make
-CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o: ../src/longest_common_subsequence.cpp
+CMakeFiles/lis.dir/src/edit_distance.cpp.o: CMakeFiles/lis.dir/flags.make
+CMakeFiles/lis.dir/src/edit_distance.cpp.o: ../src/edit_distance.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/abhinav/Documents/DS-algo/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o -c /home/abhinav/Documents/DS-algo/src/longest_common_subsequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/lis.dir/src/edit_distance.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lis.dir/src/edit_distance.cpp.o -c /home/abhinav/Documents/DS-algo/src/edit_distance.cpp
 
-CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abhinav/Documents/DS-algo/src/longest_common_subsequence.cpp > CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.i
+CMakeFiles/lis.dir/src/edit_distance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lis.dir/src/edit_distance.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abhinav/Documents/DS-algo/src/edit_distance.cpp > CMakeFiles/lis.dir/src/edit_distance.cpp.i
 
-CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abhinav/Documents/DS-algo/src/longest_common_subsequence.cpp -o CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.s
+CMakeFiles/lis.dir/src/edit_distance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lis.dir/src/edit_distance.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abhinav/Documents/DS-algo/src/edit_distance.cpp -o CMakeFiles/lis.dir/src/edit_distance.cpp.s
 
-CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.requires:
-.PHONY : CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.requires
+CMakeFiles/lis.dir/src/edit_distance.cpp.o.requires:
+.PHONY : CMakeFiles/lis.dir/src/edit_distance.cpp.o.requires
 
-CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.provides: CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.requires
-	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.provides.build
-.PHONY : CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.provides
+CMakeFiles/lis.dir/src/edit_distance.cpp.o.provides: CMakeFiles/lis.dir/src/edit_distance.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lis.dir/build.make CMakeFiles/lis.dir/src/edit_distance.cpp.o.provides.build
+.PHONY : CMakeFiles/lis.dir/src/edit_distance.cpp.o.provides
 
-CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.provides.build: CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o
+CMakeFiles/lis.dir/src/edit_distance.cpp.o.provides.build: CMakeFiles/lis.dir/src/edit_distance.cpp.o
 
 # Object files for target lis
 lis_OBJECTS = \
-"CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o"
+"CMakeFiles/lis.dir/src/edit_distance.cpp.o"
 
 # External object files for target lis
 lis_EXTERNAL_OBJECTS =
 
-lis: CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o
+lis: CMakeFiles/lis.dir/src/edit_distance.cpp.o
 lis: CMakeFiles/lis.dir/build.make
 lis: CMakeFiles/lis.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable lis"
@@ -92,7 +92,7 @@ lis: CMakeFiles/lis.dir/link.txt
 CMakeFiles/lis.dir/build: lis
 .PHONY : CMakeFiles/lis.dir/build
 
-CMakeFiles/lis.dir/requires: CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o.requires
+CMakeFiles/lis.dir/requires: CMakeFiles/lis.dir/src/edit_distance.cpp.o.requires
 .PHONY : CMakeFiles/lis.dir/requires
 
 CMakeFiles/lis.dir/clean:

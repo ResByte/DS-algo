@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/lis.dir/src/longest_common_subsequence.cpp.o"
+  "CMakeFiles/lis.dir/src/edit_distance.cpp.o"
   "lis.pdb"
   "lis"
 )
