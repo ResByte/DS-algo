@@ -1,3 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ds-algo)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+find_package(boost REQUIRED)
+include_directories(${Boost_INCLUDE_DIR})
 add_executable(ed src/edit_distance.cpp)
+add_executable(phoenix src/boost_phoenix.cpp)
+target_link_libraries(phoenix ${Boost_LIBRARIES})
