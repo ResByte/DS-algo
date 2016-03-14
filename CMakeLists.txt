@@ -19,3 +19,8 @@ target_link_libraries(thread
 	${Boost_THREAD_LIBRARY}
     ${Boost_SYSTEM_LIBRARY}
 )
+add_executable(mutex src/boost_mutex.cpp)
+target_link_libraries(mutex 
+	${Boost_THREAD_LIBRARY}
+	${Boost_SYSTEM_LIBRARY}
+)
