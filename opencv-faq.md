@@ -1,4 +1,4 @@
-# Openc Faq #
+# Opencv Faq #
 
 ## List of sources (Topic wise)
 
